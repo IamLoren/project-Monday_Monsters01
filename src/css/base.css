@@ -10,8 +10,12 @@ html {
 }
 
 :root {
-  --clr-text-white: #ffffff;
-  --clr-main-bg: #121212;
+  --text-white: #ffffff;
+  --brown: #BEA69E;
+  --main-bg: #121212;
+  --accent-bg: #1D1D1D;
+  --gradient-bg: #060707,#1D1D1D;
+  
 }
 
 body {
@@ -22,8 +26,8 @@ body {
   line-height: 1.25;
   letter-spacing: -0.02em;
 
-  color: var(--clr-text-white);
-  background-color: var(--clr-main-bg);
+  color: var(--text-white);
+  background-color: var(--main-bg);
 }
 
 .container {
