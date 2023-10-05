@@ -73,9 +73,5 @@
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4"
                 d="M8 8l16 16"></path>
         </symbol>
-
-        <symbol id="icon-Vector-1" viewBox="0 0 6000 32">
-            <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h6000"></path>
-        </symbol>
     </defs>
 </svg>

@@ -8,6 +8,7 @@
     align-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: var(--main-bg);
 }
 
 
@@ -33,18 +34,15 @@
     gap: 40px;
     flex-direction: column;
     padding: 40px 95px;
-    /* margin-left: 95px; */
     justify-content: center;
     align-items: center;
-    /* padding-top: 40px;
-    padding-bottom: 40px; */
-}
+  }
 
 .mentors-list-item {
     display: flex;
     gap: 16px;
     flex-direction: column;
-    /* column-gap: 16px; */
+    
 }
 
 .mentors-foto {
