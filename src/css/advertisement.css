@@ -1,27 +1,24 @@
 .advertisement {
-    width: 588px;
-    height: 72;
-
+    width: 100%;
+    height: 72px;
     overflow: hidden;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    padding: 40px 0;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: var(--main-bg);
 }
-  
+.banner {
+    text-transform: uppercase;
+}
 .banner-inner {
     display: flex;
+
+    padding: 20px 0;
 }
-.banner-icon {
-    stroke-width: 1px;
-    stroke: rgba(255, 255, 255, 0.20);
-}
+
 .banner-line {
     flex-shrink: 0;
     margin: 0;
-    padding: 20px 0;
     min-width: 100%;
     white-space: nowrap;
     animation-name: marqueeLine;
@@ -34,7 +31,6 @@
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -0.02em;
-    text-transform: uppercase;
 }
 
 .banner-line-accent {
