@@ -1,6 +1,6 @@
 .reviews {
   padding: 40px 0;
-  background-color: var(--accent-bg);
+  background-color: var(--main-bg);
 }
 .reviews-title {
   color: var(--text-white);
