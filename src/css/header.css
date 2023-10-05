@@ -1,1 +1,122 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container {
+    /* outline: solid red; */
+    min-width: 320px;
+    max-width: 375px;
+  }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* background-color: black; */
+  }
 
+  .header-container {
+    /* outline: solid rgb(19, 119, 100); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .header-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 1px solid var(--text-white, 0.2);
+    background-color: var(--main-bg);
+    max-width: 335px;
+    height: 50px;
+  }
+
+  .header-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo {
+    padding-right: 102px;
+  }
+  .header-logo-icon {
+    stroke: var(--text-white);
+  }
+
+  .header-navigation-list {
+    display: none;
+  }
+
+  .header-camera {
+    fill: var(--accent-bg);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 9px 22px 9px 0;
+  }
+
+  .header-icon-camera {
+    stroke: var(--brown, 0.4);
+  }
+  .header-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+  }
+
+  .header-icon-burger {
+    /* fill: var(--text-white); */
+    stroke: var(--text-white);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .header-sign {
+    display: none;
+  }
+
+  .header-sign-text {
+    color: var(--main-bg);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .header-navigation-list {
+    display: block;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-camera {
+    display: none;
+  }
+  .header-menu-btn {
+    display: none;
+  }
+  .header-sign {
+    color: var(--text-white);
+    display: block;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 186px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}
