@@ -1,5 +1,5 @@
 .advertisement {
-    width: 588px;
+    max-width: 588px;
     height: 72px;
     overflow: hidden;
     
