@@ -1,3 +1,16 @@
-<section>
-    SIGN UP
+<section class="signup">
+    <h2 class="signup-title">SIGN <span class="signup-title-accent">UP</span></h2>
+    <p class="signup-text">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+    <form class="signup-form" name="feedback-form">
+        <div class="signup-row">
+            <input class="signup-input" type="text" name="user-name" id="user-name" placeholder="Enter your name" required minlength="2" /></div>
+        <div class="signup-row">
+            <input class="signup-input" type="email" name="user-email" id="user-email" placeholder="Enter your email" required /></div>
+        <div class="signup-comment">
+            <textarea class="signup-comment-field" name="user-comment" id="user-comment" rows="5" placeholder="Message" minlength="7"></textarea>
+        </div>
+        <button class="signup-button" type="submit">SEND</button>
+        <p class="signup-privacy-text">By clicking on “Send” button, you agree to our <a class="signup-agreement-link" href="">Privacy Policy</a>, and allow Promodo to use this information for marketing
+        purposes.</p>
+    </form>
 </section>
