@@ -127,6 +127,7 @@
   }
   .header-block {
     max-width: 822px;
+    width: 100%;
   }
   .header-navigation-list {
     display: block;
@@ -147,5 +148,6 @@
 @media screen and (min-width: 1440px) {
   .header-block {
     max-width: 982px;
+    width: 100%;
   }
 }
