@@ -9,10 +9,13 @@
   line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
+  text-align: center;
 }
 .reviews-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .reviews-item:not(:first-child) {
@@ -50,9 +53,9 @@
 }
 .reviews-status {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1.28;
+  line-height: 1.33;
   letter-spacing: -0.02em;
 }
 .reviews-impression {
@@ -71,4 +74,60 @@
 
 .reviews-rating:not(:last-child) .reviews-icon {
   fill: #bea69e;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .reviews-item {
+    width: 100%;
+    height: 196px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .reviews-title {
+    color: var(--text-white);
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+    text-align: left;
+    letter-spacing: -0.04em;
+  }
+  .reviews-name {
+    line-height: 1.4;
+  }
+
+  .reviews-status {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+  }
+  .reviews-impression {
+    max-width: 930px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-item:not(:first-child) {
+    display: block;
+  }
+  .reviews-list {
+    justify-content: space-between;
+  }
+  .reviews-item {
+    width: calc((100% - 20px) / 2);
+    height: 216px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
