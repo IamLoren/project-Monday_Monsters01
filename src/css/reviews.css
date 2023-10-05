@@ -1,9 +1,6 @@
 .reviews {
   padding: 40px 0;
 }
-.container {
-  width: 335px;
-}
 .reviews-title {
   color: var(--text-white);
   font-size: 28px;
