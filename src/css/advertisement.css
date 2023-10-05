@@ -1,0 +1,52 @@
+.advertisement {
+    width: 588px;
+    height: 72;
+
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 40px 0;
+}
+  
+.banner-inner {
+    display: flex;
+}
+.banner-icon {
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.20);
+}
+.banner-line {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 20px 0;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+    color: var(--brown);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.banner-line-accent {
+    color: var(--text-white);
+}
+
+@keyframes marqueeLine {
+    from {
+      transform: translateX(0);
+    }
+    
+    to {
+      transform: translateX(-100%);
+    }
+}
