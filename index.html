@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/project-Monday_Monsters01/assets/index-9ea56c14.js"></script>
-    <link rel="stylesheet" href="/project-Monday_Monsters01/assets/index-a248ba71.css">
+    <script type="module" crossorigin src="/project-Monday_Monsters01/assets/index-85b8ba63.js"></script>
+    <link rel="stylesheet" href="/project-Monday_Monsters01/assets/index-763bbcca.css">
   </head>
   <body>
 
@@ -218,20 +218,46 @@
 
     <!-- SIGNUP -->
     <section class="signup">
-    <h2 class="signup-title">SIGN <span class="signup-title-accent">UP</span></h2>
-    <p class="signup-text">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
-    <form class="signup-form" name="feedback-form">
-        <div class="signup-row">
-            <input class="signup-input" type="text" name="user-name" id="user-name" placeholder="Enter your name" required minlength="2" /></div>
-        <div class="signup-row">
-            <input class="signup-input" type="email" name="user-email" id="user-email" placeholder="Enter your email" required /></div>
-        <div class="signup-comment">
-            <textarea class="signup-comment-field" name="user-comment" id="user-comment" rows="5" placeholder="Message" minlength="7"></textarea>
-        </div>
-        <button class="signup-button" type="submit">SEND</button>
-        <p class="signup-privacy-text">By clicking on “Send” button, you agree to our <a class="signup-agreement-link" href="">Privacy Policy</a>, and allow Promodo to use this information for marketing
+    <div class="container">
+        <div class="signup-main">
+            <h2 class="signup-title">SIGN <span class="signup-title-accent">UP</span></h2>
+            <p class="signup-text">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+            <form class="signup-form" name="feedback-form">
+            <div class="signup-row">
+                <input class="signup-input" type="text" name="user-name" id="user-name" placeholder="Enter your name" required pattern="\w{2,20}" />
+            </div>
+            <div class="signup-row">
+                <input class="signup-input" type="email" name="user-email" id="user-email" placeholder="Enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+            </div>
+            <div class="signup-comment">
+                <textarea class="signup-comment-field" name="user-comment" id="user-comment" rows="5" placeholder="Message" minlength="7">
+                </textarea>
+            </div>
+            
+            <button class="signup-button" type="submit">SEND</button>
+            <p class="signup-privacy-text">By clicking on “Send” button, you agree to our <a class="signup-agreement-link" href="">Privacy Policy</a>, and allow Promodo to use this information for marketing
         purposes.</p>
-    </form>
+            </form>
+            </div>
+            
+        <div class="signup-additional">
+            <div class="signup-additional-animated">
+                <img class="animated-img" 
+                srcset="/project-Monday_Monsters01/assets/video-product-1440-bd5f7287.png 1x, /project-Monday_Monsters01/assets/video-product-1440@2x-42cc68ad.png 2x"
+                src="/project-Monday_Monsters01/assets/video-product-1440-bd5f7287.png" 
+                alt="Lens"
+                loading="lazy" />
+            </div>
+            <div class="signup-additional-static">
+                <img class="static-img" 
+                srcset="/project-Monday_Monsters01/assets/video-product-2-1440-b658658a.png 1x, /project-Monday_Monsters01/assets/video-product-2-1440@2x-c65e96ce.png 2x"
+                src="/project-Monday_Monsters01/assets/video-product-2-1440-b658658a.png" 
+                alt="Camera"
+                loading="lazy" />
+            </div>
+        </div>
+    </div>
+    
 </section>
 
 
