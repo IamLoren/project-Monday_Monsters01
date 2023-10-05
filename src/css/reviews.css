@@ -22,7 +22,7 @@
   display: none;
 }
 .reviews-item {
-  width: 335px;
+  max-width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
