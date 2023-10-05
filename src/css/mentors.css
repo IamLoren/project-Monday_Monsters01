@@ -1,0 +1,39 @@
+.mentors {
+  
+}
+
+
+.mentors-section-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.mentors-title {
+   color: var(--text-white);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.mentors-title-color {
+    color: var(--brown);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.mentors-list-team {}
+
+.mentors-list-item {}
+
+.mentors-foto {}
+
+.mentor-info {}
+
+.mentor-name {}
+
+.mentor-experience {}
