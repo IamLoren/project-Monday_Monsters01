@@ -4,6 +4,7 @@
 
 .signup {
     padding: 40px 0;
+    background-color: var(--main-bg);
 }
 .signup-main {
     width: 335px;
