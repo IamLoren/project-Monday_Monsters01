@@ -1,0 +1,118 @@
+.hero {
+    padding: 20px 0 80px;
+}
+
+.hero-wrapper {
+    width: 100%;
+    border-radius: 30px;
+    background-color: var(--accent-bg);
+    padding: 40px 20px 0;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.hero-title-accent {
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--brown);
+}
+
+.hero-describing {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    }
+
+    .hero-reviews {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 31px;
+    }
+
+    .hero-students-list {
+        position: relative;
+        width: 107px;
+        height: 44px;
+        margin-bottom: 5px;
+    }
+
+    .hero-students-item {
+        position: absolute;
+        z-index: 3;
+    }
+
+    .hero-students-item:nth-child(2n) {
+        left: 30%;
+        z-index: 2;
+    }
+
+    .hero-students-item:last-child {
+        left: 60%;
+        z-index: 1;
+    }
+
+    .hero-reviews-link {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .hero-happy-text {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-svg-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: var(--brown);
+    }
+
+    .hero-reviews-svg {
+        fill: var(--brown);
+        stroke: var(--accent-bg);
+    }
+
+    .hero-reviews-numbers {
+        display: flex;
+        gap: 12px;
+    }
+
+    .hero-reviews-word {
+        display: block;
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.04em;
+        margin-bottom: 5px;
+    }
+
+    .hero-reviews-number {
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-guy {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        margin: 0 auto;
+    }
+
