@@ -1,7 +1,7 @@
 <footer class="footer">
    <div class="footer-container container"> 
         <div class="footer-logo">
-            <a class="footer-logo-link link" href="">
+            <a class="footer-logo-link link" href="./index.html">
                 <svg class="footer-icon" aria-label="icon-logo" width="123" height="16">
                   <use href="./img/icons.svg#icon-logo"></use>
                 </svg>
@@ -12,16 +12,16 @@
                 Ukraine, Kyiv
             </address>
         </div>
-        <div class="footer-sito">
+        <div class="footer-social">
             <ul class="footer-list-web list">
                 <li class="footer-web">
-                    <a class="footer-link-web link" href="">INSTAGRAM</a>
+                    <a class="footer-link-web link" href="https://www.instagram.com/goitclub/">INSTAGRAM</a>
                 </li>
                 <li class="footer-web">
-                    <a class="footer-link-web link" href="">FACEBOOK</a>
+                    <a class="footer-link-web link" href="https://www.facebook.com/goITclub/">FACEBOOK</a>
                 </li>
                 <li class="footer-web">
-                    <a class="footer-link-web link" href="">YOUTUBE</a>
+                    <a class="footer-link-web link" href="https://www.youtube.com/goITclub/">YOUTUBE</a>
                 </li>
             </ul>
 
@@ -46,16 +46,21 @@
         <div class="footer-subscribe">
             <form class="footer-subscribe-form">
                 <label class="footer-subscribe-label">
-                    <input class="footer-subscribe-input" type="email" name="email" placeholder="Enter your email">
+                    <input class="footer-subscribe-input" type="email" name="email" placeholder="Enter your email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
                 </label>
                 <button type="submit">Go</button>
             </form>
         </div>
         <div class="footer-container-privacy">
-            <a class="footer-link-privacy link" href="">Privacy Policy <br /> 
-                Public Offering Agreement
-            </a>
-            <p class="footer-text-frame">2023 Focus Frame <br /> <span>&#169;</span>All rights reserved</p>
+            <div class="footer-privacy-frame">
+                <a class="footer-link-privacy link" target="_blank" rel="noopener noreferrer" href="">Privacy Policy</a>
+                <a class="footer-link-privacy link" target="_blank" rel="noopener noreferrer" href="">Public Offering Agreement</a>
+            </div>
+
+            <div class="footer-privacy-frame">
+                <p class="footer-text-frame">2023 Focus Frame </p>
+                <p class="footer-text-frame"><span>&#169;</span>All rights reserved</p>
+            </div>
 
         </div>
    </div>
