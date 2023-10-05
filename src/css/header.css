@@ -70,7 +70,7 @@
   }
 
   .header-icon-burger {
-    /* fill: var(--text-white); */
+    fill: var(--text-white);
     stroke: var(--text-white);
     padding-top: 16px;
     padding-bottom: 16px;
