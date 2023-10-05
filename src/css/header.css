@@ -92,11 +92,13 @@
   .header {
     padding-bottom: 30px;
   }
+
   .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .header-block {
     max-width: 504px;
     height: 60px;
