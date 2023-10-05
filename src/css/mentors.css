@@ -1,0 +1,71 @@
+.mentors {}
+
+
+.mentors-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.mentors-title {
+    display: flex;
+    color: var(--text-white);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.mentors-title-color {
+    color: var(--brown);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.mentors-list-team {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 40px 95px;
+    /* margin-left: 95px; */
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+}
+
+.mentors-list-item {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    /* column-gap: 16px; */
+}
+
+.mentors-foto {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+}
+
+.mentors-info {
+    display: flex;
+    flex-direction: column; 
+    gap: 4px;
+    }
+
+.mentors-name {
+   
+}
+
+.mentors-experience {
+   
+}
