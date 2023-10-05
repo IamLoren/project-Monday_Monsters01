@@ -1,4 +1,6 @@
-.mentors {}
+.mentors {
+    background-color: var(--main-bg);
+}
 
 
 .mentors-section-container {
@@ -66,4 +68,29 @@
 
 .mentors-experience {
    
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+        .mentors-list-team {
+            display: flex;
+            flex-direction: row;
+            row-gap: 100px;
+            column-gap: 93px;
+            justify-content: center;
+            align-items: center;
+            width: calc((100% - 100px) / 2);
+        }
+                .mentors-list-team {
+                    display: flex;
+                    gap: 40px;
+                    flex-direction: row;
+                    padding: 40px 95px;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+    
 }
