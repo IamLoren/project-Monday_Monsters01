@@ -53,10 +53,7 @@
 }
 
 .header-icon-camera {
-  fill: var(--brown);
-  /* stroke: var(--brown); */
-  margin: 0 auto;
-  align-items: center;
+  fill: (var(--brown), 0.4);
 }
 .header-menu-toggle {
   display: flex;
@@ -68,7 +65,6 @@
 }
 
 .header-icon-burger {
-  fill: var(--text-white);
   stroke: var(--text-white);
   background-color: transparent;
   border: none;
@@ -83,6 +79,9 @@
 }
 
 @media screen and (min-width: 375px) {
+  .header-block {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
