@@ -1,18 +1,19 @@
 .about-section {
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 40px;
+  background-color: var(--main-bg);
 }
 
 @media only screen and (min-width: 768px) {
    .about-section {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
    .about-section {
-    padding-top: 75px;
+    padding-top: 150px;
     padding-bottom: 75px;
   }
 }
@@ -39,7 +40,61 @@ margin-bottom: 40px;
   color: var(--brown);
 }
 
+@media only screen and (min-width: 1280px) {
+  .about-pic-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+}
 
+@media only screen and (min-width: 1440px) {
+   .about-pic-list {
+    gap: 50px;
+  }
+}
+
+.about-img {
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+   .about-img {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .about-img {
+    margin-bottom: 0;
+  }
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+   .about-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .about-list {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+   .about-list {
+    gap: 40px;
+  }
+}
+  
 .about-text {
   width: 335px;
   color: var(--text-white);
