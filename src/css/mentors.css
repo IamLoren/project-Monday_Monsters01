@@ -38,7 +38,7 @@
     gap: 40px;
     flex-direction: column;
     padding-top: 40px;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
     justify-content: center;
     align-items: center;
   }
@@ -108,7 +108,7 @@
         }
         .mentors-list-team {
             padding-top: 50px;
-            padding-bottom: 50px;
+            /* padding-bottom: 50px; */
             flex-direction: row;
             flex-wrap: wrap;
             align-items: center;
