@@ -10,40 +10,40 @@
 
                         <ul class="hero-students-list">
                             <li class="hero-students-item">
-                                <picture>
+                                <picture class="hero-img-round">
                                     <source srcset="
                                 ./img/hero/hero_girl1_mob.png 1x,
                                 ./img/hero/hero_girl1_mob@2x.png 2x">
                                 <img
-                                  class="hero-img"
+                                  class="hero-img-round"
                                   src="./img/hero/hero_girl1_mob.png"
-                                  alt="Guy with camera in hands"
+                                  alt="student`s avatar"
                                   width="44"
                                 />
                                 </picture>
                             </li>
                             <li class="hero-students-item">
-                                <picture>
+                                <picture class="hero-img-round">
                                     <source srcset="
                                 ./img/hero/hero_boy_mob.png 1x,
                                 ./img/hero/hero_boy_mob@2x.png 2x">
                                 <img
-                                  class="hero-img"
+                                  class="hero-img-round"
                                   src="./img/hero/hero_boy_mob.png"
-                                  alt="Guy with camera in hands"
+                                  alt="student`s avatar"
                                   width="44"
                                 />
                                 </picture>
                             </li>
                             <li class="hero-students-item">
-                                <picture>
+                                <picture class="hero-img-round">
                                     <source srcset="
                                 ./img/hero/hero_girl_mob.png 1x,
                                 ./img/hero/hero_girl_mob@2x.png 2x">
                                 <img
-                                  class="hero-img"
+                                  class="hero-img-round"
                                   src="./img/hero/hero_girl_mob.png"
-                                  alt="Guy with camera in hands"
+                                  alt="student`s avatar"
                                   width="44"
                                 />
                                 </picture>
@@ -74,15 +74,10 @@
             </div>
             <div class="hero-sides">
                 <picture class="hero-guy">
-                    <source srcset="
-                ./img/hero/hero_mob.png 1x,
-                ./img/hero/hero_mob@2x.png 2x">
-                <img
-                  class="hero-img"
-                  src="./img/hero/hero_mob.png"
-                  alt="Guy with camera in hands"
-                  width="259"
-                />
+                    <source media="(min-width: 375px)" srcset="./img/hero/hero_mob.png 1x, ./img/hero/hero_mob@2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="./img/hero/hero_tab.png 1x, ./img/hero/hero_tab@2x.png 2x">
+                    <source media="(min-width: 1280px)" srcset="./img/hero/hero1280.png 1x, ./img/hero/hero1280@2x.png 2x">
+                    <img class="hero-img" src="./img/hero/hero1440.png" alt="Guy with the camera in hands">
                 </picture>
             </div>
         </div>
