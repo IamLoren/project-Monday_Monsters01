@@ -1,5 +1,6 @@
 .advertisement {
-    max-width: 588px;
+    /* max-width: 588px; */
+    max-width: 100%;
     height: 72px;
     overflow: hidden;
     
@@ -8,21 +9,21 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.20);
     background-color: var(--main-bg);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
     .advertisement {
-        max-width: 840px;
+        max-width: 100%;
         height: 98px;
     }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
     .advertisement {
-        max-width: 1280px;
+        max-width: 100%;
         height: 112px;
     }
 }
 @media only screen and (min-width: 1440px) {
     .advertisement {
-        max-width: 1440px;
+        max-width: 100%;
     }
 }
 
@@ -34,7 +35,7 @@
 
     padding: 20px 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
     .banner-inner {
         padding: 24px 0;
     }
@@ -60,13 +61,13 @@
     line-height: 1.14;
     letter-spacing: -0.02em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
     .banner-line {
         font-size: 40px;
         line-height: 1.25;
     }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
     .banner-line {
         font-size: 59px;
         line-height: 1.09;
