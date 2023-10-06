@@ -24,8 +24,9 @@
     margin-bottom: 40px;
 
 }
+
 .footer-logo-link {
-    color: var(--text-white);
+    fill: var(--text-white);
     width: 100%;
     height: 100%;
 }
@@ -38,7 +39,7 @@
     gap: auto;
 }
 .footer-link {
-    color: var(--text-white);
+    fill: var(--text-white);
 font-size: 14px;
 line-height: 1.28;
 }
@@ -74,6 +75,7 @@ line-height: normal;
     margin-bottom: 40px;
 }
 .footer-subscribe-form {
+    gap: 8px;
 }
 .footer-subscribe-label {
     
@@ -85,6 +87,7 @@ border-radius: 12px;
 background-color: var(--text-white); 
 width: 267px;
 height: 60px;
+border: none;
 }
 
 .footer-button{
@@ -96,14 +99,17 @@ width: 60px;
 height: 60px;
 border-radius: 12px;
 background-color: var(--accent-bg);
+border: none;
 }
 
 .footer-container-privacy {
     color: var(--text-white);
 font-size: 12px;
 line-height: 1.33;
+gap: 8px;
 }
 .footer-privacy-frame {
+    padding-bottom: 20px;
 }
 .footer-link-privacy {
 }
