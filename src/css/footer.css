@@ -14,7 +14,9 @@
   
 @media only screen and (min-width: 768px) {
     .footer-container-social {
-    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
@@ -51,6 +53,18 @@ line-height: 1.28;
     width: 214px;
     height: 146px;  
 }
+
+@media only screen and (min-width: 768px) {
+    .footer-social {
+        gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-social {
+        gap: 50px;
+    }
+
 .footer-list-web {
     color: var(--text-white);
 font-size: 14px;
@@ -77,20 +91,32 @@ line-height: normal;
     margin-bottom: 40px;
 }
 .footer-subscribe-form {
-    gap: 8px;
+    display: flex;
+    gap: 8px; 
 }
 .footer-subscribe-label {
-    
-}
+}   
 .footer-subscribe-input {
 font-size: 16px;
 line-height: 1.25;
 border-radius: 12px;
 background-color: var(--text-white); 
-width: 267px;
 height: 60px;
 border: none;
 padding-left: 18px;
+width: 267px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-subscribe-input {
+        width: 178px;
+    }    
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-subscribe-input {
+        width: 216px;
+    }    
 }
 
 .footer-button{
