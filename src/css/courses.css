@@ -13,14 +13,8 @@
 
 @media only screen and (min-width: 1280px) {
    .courses {
-    padding-top: 115px;
-    padding-bottom: 75px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-   .courses{
     padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 
@@ -200,6 +194,7 @@
         font-size: 28px;
         font-weight: 500;
         line-height: 1.14;
+        letter-spacing: normal;
 }
 
 @media only screen and (min-width: 768px) {
