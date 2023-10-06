@@ -70,14 +70,9 @@
    
 }
 @media only screen and (min-width: 768px) {
-    .container {
-        
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-      
+          
     .mentors-list-team {
-        display: flex;
+        
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -92,12 +87,9 @@
     
 }
 @media only screen and (min-width: 1280px) {
-    .container {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+    
         .mentors-list-team {
-            display: flex;
+           
             flex-direction: row;
             flex-wrap: nowrap;
             align-items: center;
@@ -106,9 +98,7 @@
         }
 }
 @media only screen and (min-width: 1440px) {
-    .container {
-        max-width: 1240px;
-    }
+    
          .mentors-list-team {
             
              gap: 127px;
