@@ -1,4 +1,6 @@
-.mentors {}
+.mentors {
+    background-color: var(--main-bg);
+}
 
 
 .mentors-section-container {
@@ -33,7 +35,8 @@
     display: flex;
     gap: 40px;
     flex-direction: column;
-    padding: 40px 95px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: center;
     align-items: center;
   }
@@ -42,6 +45,7 @@
     display: flex;
     gap: 16px;
     flex-direction: column;
+    max-width: 180px;
     
 }
 
@@ -50,8 +54,9 @@
     gap: 16px;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center; 
+    
 }
 
 .mentors-info {
@@ -61,9 +66,52 @@
     }
 
 .mentors-name {
-   
+    color: var(--text-white);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+       
 }
 
 .mentors-experience {
+    color: rgba(255, 255, 255, 0.50);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
    
+}
+@media only screen and (min-width: 768px) {
+          
+    .mentors-list-team {
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 93px;
+        column-gap: 100px;
+     }
+    
+    .mentors-list-item {
+        width: calc((100% - 100px) / 2);
+    }          
+    
+}
+@media only screen and (min-width: 1280px) {
+    
+        .mentors-list-team {
+           
+            flex-wrap: nowrap;
+            gap: 93px;
+        }
+}
+@media only screen and (min-width: 1440px) {
+    
+         .mentors-list-team {
+            
+             gap: 127px;
+         }
 }
