@@ -11,11 +11,10 @@ html {
 
 :root {
   --text-white: #ffffff;
-  --brown: #BEA69E;
+  --brown: #bea69e;
   --main-bg: #121212;
-  --accent-bg: #1D1D1D;
-  --gradient-bg: #060707,#1D1D1D;
-  
+  --accent-bg: #1d1d1d;
+  --gradient-bg: #060707, #1d1d1d;
 }
 
 body {
@@ -25,9 +24,52 @@ body {
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
-
+  background-image: url(../img/hero/hero-bg_mob.png);
+  background-size: 100%;
   color: var(--text-white);
   background-color: var(--main-bg);
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  body {
+    background-image: url(../img/hero/hero-bg_mob@2x.png);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/hero/hero-bg_tab.png);
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  body {
+    background-image: url(../img/hero/hero-bg_tab@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    background-image: url(../img/hero/hero-bg1280.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  body {
+    background-image: url(../img/hero/hero-bg1280@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(../img/hero/hero-bg1440.png);
+  }
+}
+
+@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  body {
+    background-image: url(../img/hero/hero-bg1440@2x.png);
+  }
 }
 
 .container {
@@ -53,6 +95,6 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1440px;
   }
 }

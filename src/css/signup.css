@@ -2,27 +2,112 @@
     display: none;
 }
 
+.signup {
+    padding: 40px 0;
+    background-color: var(--main-bg);
+}
 .signup-main {
+    max-width: 335px;
+    height: 523px;
+    flex-shrink: 0;
 }
 .signup-title {
+    /* font-family: DM Sans, sans-serif; */
+    color: var(--text-white);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 20px;
 }
 .signup-title-accent {
+    color: var(--brown);
 }
 .signup-text {
+    max-width: 295px;
+    height: 54px;
+
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 40px;
 }
 .signup-form {
 }
 .signup-row {
+    margin-bottom: 8px;
 }
 .signup-input {
+    width: 100%;
+    height: 46px;
+    padding: 8px 14px;
+    /* flex-shrink: 0; */
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    opacity: 0.7;
+    background-color: transparent;
+    color: var(--text-white);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+}
+.signup-input::placeholder {
+    color: var(--text-white);
 }
 .signup-comment {
+    margin-bottom: 40px;
 }
 .signup-comment-field {
+    display: block;
+    width: 100%;
+    height: 112px;
+    padding: 15px 18px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    opacity: 0.7;
+
+    color: var(--text-white);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    outline: transparent;
+    background-color: transparent;
+    resize: none;
+}
+.signup-comment-field::placeholder {
+    color: var(--text-white);
 }
 .signup-button {
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 127px;
+
+    width: 100%;
+    border-radius: 12px;
+    background: var(--text-white);
+
+    color: var(--main-bg);
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
 }
 .signup-privacy-text {
+    width: 100%;
+    height: 48px;
+
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.33;
 }
 .signup-agreement-link {
+    text-decoration-line: underline;
 }
