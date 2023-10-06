@@ -71,7 +71,6 @@ margin-bottom: 40px;
 }
 
 .about-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
