@@ -2,9 +2,9 @@
   <div class="header-container container">
     <div class="header-block">
       <nav class="header-navigation">
-        <a class="header-logo" href="http://localhost:5173/">
+        <a class="header-logo" href="./index.html">
           <svg class="header-logo-icon" width="123" height="16" href="">
-            <use href="../img/icons.svg#icon-logo"></use>
+            <use href="./img/icons.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="header-navigation-list">
@@ -25,19 +25,23 @@
           </li>
         </ul>
       </nav>
-      <div class="header-camera">
+      <a class="header-camera" href="">
         <svg class="header-icon-camera" width="16" height="16" id="">
-          <use href="../img/icons.svg#icon-camera"></use>
+          <use href="./img/icons.svg#icon-camera"></use>
         </svg>
-      </div>
-      <button class="header-menu-btn js-open-menu" type="button" data-menu-open>
+      </a>
+      <button
+        class="header-menu-toggle js-open-menu"
+        type="button"
+        data-menu-open
+        aria-expanded="false"
+        aria-controls="mobail-menu"
+      >
         <svg class="header-icon-burger" width="32" height="22">
-          <use href="../img/icons.svg#icon-burger"></use>
+          <use href="./img/icons.svg#icon-burger"></use>
         </svg>
       </button>
     </div>
-    <div class="header-sign">
-      <a class="header-sign-text">sign up</a>
-    </div>
+    <a class="header-sign" href="">sign up</a>
   </div>
 </header>
