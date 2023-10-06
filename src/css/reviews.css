@@ -43,6 +43,8 @@
   margin-bottom: 10px;
 }
 .reviews-photo {
+  width: 56px;
+  height: 56px;
   margin-right: 10px;
 }
 .reviews-name {
