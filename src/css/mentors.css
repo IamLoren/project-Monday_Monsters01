@@ -19,7 +19,7 @@
     color: var(--text-white);
     font-size: 28px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1,14;
     letter-spacing: -0,04em;
     gap: 5px;
     
@@ -29,7 +29,7 @@
     color: var(--brown);
     font-size: 28px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1,14;
     letter-spacing: -0.04em;
 }
 
@@ -38,7 +38,6 @@
     gap: 40px;
     flex-direction: column;
     padding-top: 40px;
-    padding-bottom: 40px;
     justify-content: center;
     align-items: center;
   }
@@ -72,7 +71,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1,2;
     width: 194px;
 
        
@@ -83,34 +82,48 @@
         text-align: center;
         font-size: 12px;
         font-weight: 400;
-        line-height: 16px;
+        line-height: 1,33;
         letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
     .mentors-title {
-         gap: 12px;
+        font-size: 48px;
+        line-height: 1,12;
+        gap: 12px;
     
         }
-    .mentors-list-team {
-        
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        row-gap: 93px;
-        column-gap: 100px;
-     }
+           
+        .mentors-name {
+            font-size: 28px;
+            line-height: 1,14;
+            width: 194px;
+        }
+        .mentors-title-color {
+                    
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 1,12;
+                    
+        }
+        .mentors-list-team {
+            padding-top: 50px;
+            
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            row-gap: 93px;
+            column-gap: 100px;
+        }
     
     .mentors-list-item {
         width: calc((100% - 100px) / 2);
     } 
-        .mentors-name {
-           font-size: 28px;
-        }
+        
     
         .mentors-experience {
             font-size: 14px;
-            
+            line-height: 1,28;
         }
     
 }
@@ -126,6 +139,8 @@
     
          .mentors-list-team {
             
-             gap: 127px;
+            gap: 113px;
          }
+        
+        
 }
