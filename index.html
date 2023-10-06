@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/project-Monday_Monsters01/assets/index-b7782912.js"></script>
-    <link rel="stylesheet" href="/project-Monday_Monsters01/assets/index-162b2d4c.css">
+    <script type="module" crossorigin src="/project-Monday_Monsters01/assets/index-35434105.js"></script>
+    <link rel="stylesheet" href="/project-Monday_Monsters01/assets/index-3e5cc48e.css">
   </head>
   <body>
 
@@ -169,14 +169,34 @@
     <section class="about-section">
     <div class="container">
         <h2 class="about-title">About <span class="about-title-us">Us</span></h2>
-        <img class="about-img" srcset="/project-Monday_Monsters01/assets/about_camera_mob-7e56e139.png 1x, /project-Monday_Monsters01/assets/about_camera_mob@2x-ee686349.png 2x" src="/project-Monday_Monsters01/assets/about_camera_mob-7e56e139.png" alt="Camera in the background" width="209">
-        <p class="about-text text-one">Our photography school is designed to teach you everything you need to know about this magical art. Regardless of your
+        <div class="about-pic-list">
+        <picture class="about-pic">
+            <source media="(min-width: 1440px)"
+            srcset="/project-Monday_Monsters01/assets/about_camera1440-d875f5f2.png 1x, /project-Monday_Monsters01/assets/about_camera1440@2x-33470a74.png 2x">
+            <source media="(min-width: 1280px)" 
+            srcset="/project-Monday_Monsters01/assets/about_camera1280-5ed9bcb5.png 1x, /project-Monday_Monsters01/assets/about_camera1280@2x-b4a419d9.png 2x">
+            <source media="(min-width: 768px)"
+            srcset="/project-Monday_Monsters01/assets/about_camera_tab-a27e9f89.png 1x, /project-Monday_Monsters01/assets/about_camera_tab@2x-99f717c0.png 2x">
+            <source media="(max-width: 766px)" 
+            srcset="/project-Monday_Monsters01/assets/about_camera_mob-7e56e139.png 1x, /project-Monday_Monsters01/assets/about_camera_mob@2x-ee686349.png 2x">
+            <img class="about-img"
+            src="/project-Monday_Monsters01/assets/about_camera_mob-7e56e139.png" 
+            alt="Camera in the background">
+        </picture>
+        <ul class="about-list">
+            <li class="about-item">
+            <p class="about-text text-one">Our photography school is designed to teach you everything you need to know about this magical art. Regardless of your
         experience or skill level, we offer a wide range of courses to suit your needs and interests. Our teaching team consists
         of experienced photographers who have many years of experience in this field. They strive not only to share their
         knowledge, but also to inspire you to develop and express your unique creativity.</p>
-        <p class="about-text text-two">Our courses cover a wide range of topics, from the basics of photography and equipment use to professional image
+            </li>
+            <li class="about-item">
+            <p class="about-text text-two">Our courses cover a wide range of topics, from the basics of photography and equipment use to professional image
         processing and creating impressive compositions. You will have the opportunity to learn the technical aspects of
         photography, discover your own style and develop your own visual language.</p>
+            </li>
+        </ul>
+        </div>
     </div>
 </section>
 
