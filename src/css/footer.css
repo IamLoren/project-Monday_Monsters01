@@ -151,7 +151,8 @@ line-height: normal;
     gap: 8px; 
 }
 .footer-subscribe-label {
-}   
+}
+
 .footer-subscribe-input {
 font-size: 16px;
 line-height: 1.25;
@@ -203,13 +204,14 @@ padding-bottom: 20px;
     }    
 }
 .footer-privacy-frame {
-    
+      
 }
 
 .footer-container-link{
     display: flex;
     flex-direction: column;
 }
+
 .footer-link-privacy {
 }
 
