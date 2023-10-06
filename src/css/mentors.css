@@ -89,6 +89,7 @@
     .mentors-title {
         font-size: 48px;
         gap: 12px;
+        letter-spacing: normal;
     
         }
            
@@ -98,7 +99,7 @@
             width: 194px;
         }
         .mentors-title-color {
-                    
+            letter-spacing: normal;
             font-size: 48px;
             font-weight: 500;
             
