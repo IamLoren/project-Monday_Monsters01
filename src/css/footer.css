@@ -11,7 +11,10 @@
     }
 }
   
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
+    .footer-container-social {
+    
+    }
 }
 
 .footer-container {
@@ -86,6 +89,7 @@ background-color: var(--text-white);
 width: 267px;
 height: 60px;
 border: none;
+padding-left: 18px;
 }
 
 .footer-button{
