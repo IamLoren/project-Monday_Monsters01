@@ -19,10 +19,10 @@
 }
 
 .footer-container {
+    padding: 40px auto;
 }
 .footer-logo {
     margin-bottom: 40px;
-
 }
 
 .footer-logo-link {
@@ -45,14 +45,16 @@ line-height: 1.28;
 }
 .footer-social {
     margin-bottom: 75px;
-    
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    width: 214px;
+    height: 146px;  
 }
 .footer-list-web {
     color: var(--text-white);
 font-size: 14px;
 line-height: normal;
-gap: 40 px;
-
 }
 
 .footer-web {
@@ -107,9 +109,16 @@ border: none;
 font-size: 12px;
 line-height: 1.33;
 gap: 8px;
+display: flex;
+justify-content: space-between;
 }
 .footer-privacy-frame {
     padding-bottom: 20px;
+}
+
+.footer-container-link{
+    display: flex;
+    flex-direction: column;
 }
 .footer-link-privacy {
 }
