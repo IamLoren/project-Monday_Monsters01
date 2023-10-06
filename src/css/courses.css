@@ -107,7 +107,7 @@
 }
 
 .courses-card-text {
-    height: 281px;
+    max-height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
