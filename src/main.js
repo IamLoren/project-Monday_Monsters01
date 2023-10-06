@@ -41,11 +41,7 @@ new Swiper('.reviews-list', {
     onlyInViewport: true,
     pageUpDown: true,
   },
-  // управління колесом миші при бескінечному виключати
-  mousewheel: {
-    sensitvity: 1,
-    eventsTarget: '.reviews-list',
-  },
+  loop: true,
 
   //Відступ між слайдами
 
