@@ -88,29 +88,43 @@
 }
 @media only screen and (min-width: 768px) {
     .mentors-title {
-         gap: 12px;
+        font-size: 48px;
+        line-height: 54px;
+        gap: 12px;
     
         }
-    .mentors-list-team {
-        
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        row-gap: 93px;
-        column-gap: 100px;
-     }
+           
+        .mentors-name {
+            font-size: 28px;
+            line-height: 32px;
+            width: 194px;
+        }
+        .mentors-title-color {
+                    
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 54px;
+                    
+        }
+        .mentors-list-team {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            row-gap: 93px;
+            column-gap: 100px;
+        }
     
     .mentors-list-item {
         width: calc((100% - 100px) / 2);
     } 
-        .mentors-name {
-           font-size: 28px;
-        }
+        
     
         .mentors-experience {
             font-size: 14px;
-            
+            line-height: 18px;
         }
     
 }
@@ -125,7 +139,9 @@
 @media only screen and (min-width: 1440px) {
     
          .mentors-list-team {
-            
-             gap: 127px;
+            padding-bottom: 75px;
+            gap: 113px;
          }
+        
+        
 }
