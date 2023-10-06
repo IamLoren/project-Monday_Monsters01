@@ -88,7 +88,6 @@
 @media only screen and (min-width: 768px) {
     .mentors-title {
         font-size: 48px;
-        line-height: 1,12;
         gap: 12px;
     
         }
@@ -102,7 +101,7 @@
                     
             font-size: 48px;
             font-weight: 500;
-            line-height: 1,12;
+            
                     
         }
         .mentors-list-team {
