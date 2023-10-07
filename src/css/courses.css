@@ -1,3 +1,9 @@
+/* DELETE */
+:root {
+    --trans-time: 0.3s;
+    --trans-func: linear;
+}
+
 .courses {
     padding-top: 57px;
     padding-bottom: 40px;
@@ -115,8 +121,45 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--gradient-bg);
     padding: 28px;
+    cursor: pointer;
+    /* animation-name: scale-up-center;
+     animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;  */
+    transition: all var(--trans-time) var(--trans-func);
+    
 
 }
+/* ANIMATION */
+    .courses-item:hover.scale-up-center,
+    .courses-item:focus.scale-up-center {
+                    -webkit-animation: scale-up-center 0.4s linear both;
+                    animation: scale-up-center 0.4s linear both;
+                    -webkit-animation: scale-up-center 0.4s linear both;
+                    animation: scale-up-center 0.4s linear both;
+                }
+
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    
+    }
+
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+
+        -webkit-box-shadow: -12px 0 20px -12px rgba(190, 166, 158, 0.35), 12px 0 20px -12px rgba(190, 166, 158, 0.35);
+        box-shadow: -12px 0 20px -12px rgba(190, 166, 158, 0.35), 12px 0 20px -12px rgba(190, 166, 158, 0.35);
+    }
+}
+
+/* ANIMATION */
 
 @media only screen and (min-width: 375px) {
    .courses-item{
