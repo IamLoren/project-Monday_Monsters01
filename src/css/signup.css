@@ -228,7 +228,7 @@
     background: var(--brown);
 }
 .animated-img {
-    width: 805;
+    width: 80%;
     position: absolute;
     top: 112px;
     left: 20px;
