@@ -55,14 +55,24 @@
 
 .footer-link {
     fill: var(--text-white);
-font-size: 14px;
-line-height: 1.28;
+    font-size: 14px;
+    line-height: 1.28;
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
-.footer-adress .footer-link:hover ,
-.footer-adress .footer-link:focus {
+.footer-link:hover ,
+.footer-link:focus {
     color: var(--brown);
-    font-weight: 700;
+    font-weight: 600;
+}
+
+.footer-country {
+color: var(--text-white);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28; 
 }
 
 .footer-social {
@@ -121,12 +131,14 @@ line-height: 1.28;
     color: var(--text-white);
     font-size: 14px;
     line-height: normal;
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .footer-link-web:hover ,
 .footer-link-web:focus {
     color: var(--brown);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -149,13 +161,15 @@ line-height: 1.28;
     color: var(--text-white);
     font-size: 14px;
     line-height: normal;
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 
 .footer-link-about:hover ,
 .footer-link-about:focus {
     color: var(--brown);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -228,7 +242,8 @@ border-radius: 12px;
 background-color: var(--accent-bg);
 border: none;
 flex-shrink: 0;
-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: var(--trans-time);
+transition-timing-function: var(--trans-func);
 }
 
 .footer-button:hover,
