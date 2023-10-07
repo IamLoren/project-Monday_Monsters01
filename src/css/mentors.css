@@ -96,7 +96,7 @@
         .mentors-name {
             font-size: 28px;
             line-height: 1,14;
-            width: 194px;
+            /* width: 194px; */
         }
         .mentors-title-color {
             letter-spacing: normal;
