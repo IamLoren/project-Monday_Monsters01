@@ -184,7 +184,7 @@
 .signup-privacy-text {
     width: 100%;
     height: 48px;
-
+    text-align: left;
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     line-height: 1.33;
@@ -209,23 +209,64 @@
 .signup .container {
     display: flex;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .signup-additional {
         display: flex;
+        width: 100%;
+        position: relative;
     }
-}
-
 .signup-additional-animated {
-    max-width: 180px;
+    width: 180px;
     height: 288px;
     flex-shrink: 0;
+    position: absolute;
+    right: 361px;
+    bottom: 0;
+    margin-bottom: 38px;
 
     border-radius: 1000px;
-    background: #BEA69E;
+    background: var(--brown);
 }
 .animated-img {
+    width: 805;
+    position: absolute;
+    top: 112px;
+    left: 20px;
+    transition: transform 5s ease;
 }
+
+.animated-img:hover {
+    transform-origin: center center;
+    transform: rotate(90deg);
+}
+
 .signup-additional-static {
+    width: 340px;
+    height: 540px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 38px;
+
+    border-radius: 1000px;
+    background: var(--accent-bg);
+    
 }
+
 .static-img {
+    position: absolute;
+    bottom: 88px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 240px;
+    height: 296px;
+    flex-shrink: 0;
+    transition: transform 5s ease;
+}
+
+.static-img:hover {
+    transform-origin: top;
+    transform: rotate(30deg);
+}
 }

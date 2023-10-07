@@ -15,6 +15,27 @@
   transition: transform 250ms ease-in-out;
 }
 
+@media only screen and (min-resolution: 192dpi) {
+  .menu-container {
+    background-image: url(../img/menu_tab_mobile/menu_camera_mob@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container {
+    width: 480px;
+    padding: 232px 64px 64px;
+    background-image: url(../img/menu_tab_mobile/menu_camera_tab.jpg);
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .menu-container {
+    background-image: url(../img/menu_tab_mobile/menu_camera_tab@2x.jpg);
+  }
+}
+
 .menu-container.is-open {
   transform: translateX(0);
 }
@@ -43,4 +64,10 @@
 .menu-nav-link:focus,
 .menu-nav-link:active {
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-nav-link:not(:last-child) {
+   padding: 12px 12px 12px 0;
+  }
 }
