@@ -1,10 +1,9 @@
 .header {
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: var(--main-bg);
 }
 
-.header-container {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,8 +17,7 @@
   border-radius: 12px;
   border: 1px solid var(--text-white, 0.2);
   background-color: var(--main-bg);
-  /* max-width: 335px; */
-  width: 100%;
+  flex-grow: 1;
   height: 50px;
   padding: 0 20px;
 }
@@ -28,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  gap: 14px;
 }
 
 .header-logo {
@@ -54,11 +52,15 @@
 }
 
 .header-icon-camera {
-  fill: var(--brown);
-  /* stroke: var(--brown); */
-  margin: 0 auto;
-  align-items: center;
+  fill: var(--brown-transp);
+  transition: fill var(--trans-time);
 }
+
+.header-icon-camera:hover,
+.header-icon-camera:focus {
+  fill: var(--brown);
+}
+
 .header-menu-toggle {
   display: flex;
   justify-content: center;
@@ -69,7 +71,6 @@
 }
 
 .header-icon-burger {
-  fill: var(--text-white);
   stroke: var(--text-white);
   background-color: transparent;
   border: none;
@@ -83,27 +84,29 @@
   display: none;
 }
 
-@media screen and (min-width: 375px) {
-  /* .header-block {
-    max-width: 335px;
-  } */
+@media only screen and (min-width: 375px) {
+  .header-block {
+    width: 335px;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .header {
     padding-bottom: 30px;
   }
 
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .header-wrapper {
+    gap: 14px;
   }
 
   .header-block {
     max-width: 504px;
     width: 100%;
     height: 60px;
+  }
+
+  .header-camera {
+    display: none;
   }
 
   .header-sign {
@@ -113,7 +116,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    width: 186px;
+    min-width: 186px;
     height: 60px;
     color: var(--main-bg);
     font-size: 18px;
@@ -121,28 +124,86 @@
     line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
+    transition: background-color var(--trans-time);
+  }
+
+  .header-sign:hover,
+  .header-sign:focus {
+    background-color: var(--accent-bg);
+    color: var(--brown);
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .header {
     padding-bottom: 40px;
+  }
+
+  .header-wrapper {
+    margin: 0 auto;
+    gap: 20px;
   }
   .header-block {
     max-width: 822px;
     width: 100%;
+    padding: 0 50px;
   }
+
+  .header-logo {
+    margin-right: 97px;
+  }
+
   .header-navigation-list {
     display: block;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    gap: 28px;
     justify-content: space-between;
   }
 
-  .header-camera {
-    display: none;
+  .header-navigation-link {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: color var(--trans-time);
   }
+
+  .header-navigation-link:hover,
+  .header-navigation-link:focus {
+    color: var(--brown);
+  }
+  .header-navigation-link:active::before {
+    content: ' ';
+    left: 0;
+    background-color: var(--brown);
+    color: var(--brown);
+    position: absolute;
+    bottom: -2px;
+    display: block;
+    width: 100%;
+    height: 0;
+    border-radius: 2px;
+    transition: 1000mc ease;
+  }
+
+  .header-navigation-link:active::after {
+    content: ' ';
+    left: 0;
+    background-color: var(--brown);
+    color: var(--brown);
+    position: absolute;
+    bottom: -2px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+  }
+
   .header-menu-toggle {
     display: none;
   }
@@ -151,8 +212,18 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .header-block {
     max-width: 982px;
+  }
+  .header-logo {
+    margin-right: 209px;
+  }
+
+  .header-navigation-list {
+    gap: 40px;
+  }
+  .header-sign {
+    width: 238px;
   }
 }
