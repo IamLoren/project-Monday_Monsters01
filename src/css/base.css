@@ -14,8 +14,11 @@ html {
   --brown: #bea69e;
   --main-bg: #121212;
   --accent-bg: #1d1d1d;
-  --gradient-bg:linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 
+  --gradient-bg: #060707, #1d1d1d;
+  --brown-transp: rgba(190, 166, 158, 0.4);
+  --trans-time: 0.3s;
+  --trans-func: linear;
 }
 
 body {
