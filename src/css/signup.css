@@ -209,7 +209,7 @@
 .signup .container {
     display: flex;
 }
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1280px) {
     .signup-additional {
         display: flex;
         width: 100%;
@@ -220,7 +220,7 @@
     height: 288px;
     flex-shrink: 0;
     position: absolute;
-    right: 370px;
+    right: 361px;
     bottom: 0;
     margin-bottom: 38px;
 
@@ -228,14 +228,18 @@
     background: var(--brown);
 }
 .animated-img {
+    width: 805;
     position: absolute;
-    top: 76px;
-    bottom: 62px;
-    left: 19px;
-    right: 19px;
-    /* width: 150px;
-    height: 142px; */
+    top: 112px;
+    left: 20px;
+    transition: transform 5s ease;
 }
+
+.animated-img:hover {
+    transform-origin: center center;
+    transform: rotate(90deg);
+}
+
 .signup-additional-static {
     width: 340px;
     height: 540px;
