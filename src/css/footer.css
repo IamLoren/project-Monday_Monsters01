@@ -54,16 +54,16 @@
     flex-direction: column;   
 }
 
-@media only screen and (min-width: 768px) {
-    .footer-link {
-    
-    }
-}
-
 .footer-link {
     fill: var(--text-white);
 font-size: 14px;
 line-height: 1.28;
+}
+
+.footer-adress .footer-link:hover ,
+.footer-adress .footer-link:focus {
+    color: var(--brown);
+    font-weight: 700;
 }
 
 .footer-social {
@@ -99,9 +99,13 @@ line-height: 1.28;
 }
 
 .footer-list-web {
-    color: var(--text-white);
-font-size: 14px;
-line-height: normal;
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-list-web {
+        width: 77px;
+        height: 94px;
+    }
 }
 
 .footer-web {
@@ -115,13 +119,22 @@ line-height: normal;
 } 
 
 .footer-link-web {
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: normal;
 }
 
-.footer-list-about {
-    color: var(--text-white);
-font-size: 14px;
-line-height: normal;
+.footer-web .footer-link-web:hover ,
+.footer-web .footer-link-web:focus {
+    color: var(--brown);
+    font-weight: 700;
 }
+
+
+.footer-list-about {
+    width: 97px;
+}
+
 
 .footer-about-us {
     margin-bottom: 14px;
@@ -134,7 +147,23 @@ line-height: normal;
 }
 
 .footer-link-about {
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: normal;
 }
+
+.footer-about-us .footer-link-about:hover ,
+.footer-about-us .footer-link-about:focus {
+    color: var(--brown);
+    
+}
+
+.footer-about-us:hover ,
+.footer-about-us:focus {
+    font-weight: 700;
+}
+
+
 
 .footer-subscribe {
     margin-bottom: 40px;
@@ -164,6 +193,15 @@ padding-left: 18px;
 width: 267px;
 }
 
+.footer-subscribe-input:hover ,
+.footer-subscribe-input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: var(--main-bg);
+    stroke-width: 1px;
+    color: var(--text-white)
+}
+
+
 @media only screen and (min-width: 768px) {
     .footer-subscribe-input {
         width: 178px;
@@ -180,13 +218,21 @@ width: 267px;
     color: var(--text-white);
 text-align: center;
 font-size: 20px;
-line-height: 120%; /* 24px */
+line-height: 1.2;
 width: 60px;
 height: 60px;
 border-radius: 12px;
 background-color: var(--accent-bg);
 border: none;
+transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-button:hover,
+.footer-button:focus {
+      color: var(--brown); 
+}
+
+
 
 .footer-container-privacy {
     color: var(--text-white);
