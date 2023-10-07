@@ -123,8 +123,8 @@ line-height: 1.28;
     line-height: normal;
 }
 
-.footer-web .footer-link-web:hover ,
-.footer-web .footer-link-web:focus {
+.footer-link-web:hover ,
+.footer-link-web:focus {
     color: var(--brown);
     font-weight: 700;
 }
@@ -151,14 +151,10 @@ line-height: 1.28;
     line-height: normal;
 }
 
-.footer-about-us .footer-link-about:hover ,
-.footer-about-us .footer-link-about:focus {
-    color: var(--brown);
-    
-}
 
-.footer-about-us:hover ,
-.footer-about-us:focus {
+.footer-link-about:hover ,
+.footer-link-about:focus {
+    color: var(--brown);
     font-weight: 700;
 }
 
