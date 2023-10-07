@@ -262,11 +262,5 @@
     max-width: 240px;
     height: 296px;
     flex-shrink: 0;
-    transition: transform 5s ease;
-}
-
-.static-img:hover {
-    transform-origin: top;
-    transform: rotate(30deg);
 }
 }
