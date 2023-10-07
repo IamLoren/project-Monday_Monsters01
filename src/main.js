@@ -21,7 +21,7 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
   links.forEach(link => {
-    link.addEventListener('click', toggleMenu) 
+    link.addEventListener('click', toggleMenu);
   });
 
   // Close the mobile menu on wider screens if the device orientation changes
@@ -34,7 +34,7 @@
 })();
 
 /* Slider Swiper */
-
+console.log('.reviews-list', Swiper);
 new Swiper('.reviews-list', {
   simulateTouch: true,
   touchRatio: 1,
@@ -59,3 +59,4 @@ new Swiper('.reviews-list', {
     },
   },
 });
+console.log(Swiper);

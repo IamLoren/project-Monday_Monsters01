@@ -1,44 +1,43 @@
 .advertisement {
-    /* max-width: 588px; */
-    max-width: 100%;
-    height: 72px;
-    overflow: hidden;
-    
-    
-    border-top: 1px solid rgba(255, 255, 255, 0.20);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
-    background-color: var(--main-bg);
+  /* max-width: 588px; */
+  max-width: 100%;
+  height: 72px;
+  overflow: hidden;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: var(--main-bg);
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
-    .advertisement {
-        max-width: 100%;
-        height: 98px;
-    }
+  .advertisement {
+    max-width: 100%;
+    height: 98px;
+  }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
-    .advertisement {
-        max-width: 100%;
-        height: 112px;
-    }
+  .advertisement {
+    max-width: 100%;
+    height: 112px;
+  }
 }
 @media only screen and (min-width: 1440px) {
-    .advertisement {
-        max-width: 100%;
-    }
+  .advertisement {
+    max-width: 100%;
+  }
 }
 
 .banner {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .banner-inner {
-    display: flex;
+  display: flex;
 
-    padding: 20px 0;
+  padding: 20px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
-    .banner-inner {
-        padding: 24px 0;
-    }
+  .banner-inner {
+    padding: 24px 0;
+  }
 }
 /* @media only screen and (min-width: 1280px) {
     .banner-inner {
@@ -46,44 +45,44 @@
     }
 } */
 .banner-line {
-    flex-shrink: 0;
-    margin: 0;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+  flex-shrink: 0;
+  margin: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 
-    color: var(--brown);
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
+  color: var(--brown);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
-    .banner-line {
-        font-size: 40px;
-        line-height: 1.25;
-    }
+  .banner-line {
+    font-size: 40px;
+    line-height: 1.25;
+  }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
-    .banner-line {
-        font-size: 59px;
-        line-height: 1.09;
-    }
+  .banner-line {
+    font-size: 59px;
+    line-height: 1.09;
+  }
 }
 
 .banner-line-accent {
-    color: var(--text-white);
+  color: var(--text-white);
 }
 
 @keyframes marqueeLine {
-    from {
-      transform: translateX(0);
-    }
-    
-    to {
-      transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
