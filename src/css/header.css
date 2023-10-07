@@ -1,7 +1,6 @@
 .header {
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: var(--main-bg);
 }
 
 .header-container {
@@ -53,8 +52,8 @@
 }
 
 .header-icon-camera {
-  fill: (var(--brown), 0.4);
-  stroke: var(--accent-bg);
+  fill: var(--brown-transp);
+  /* stroke: var(--accent-bg); */
 }
 .header-menu-toggle {
   display: flex;
@@ -63,6 +62,7 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  transition: background-color var(--trans-time);
 }
 
 .header-icon-burger {
