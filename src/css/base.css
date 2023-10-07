@@ -16,8 +16,6 @@ html {
   --accent-bg: #1d1d1d;
   --gradient-bg:linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 
-  --anim-fast: 300ms ease;
-
 }
 
 body {
