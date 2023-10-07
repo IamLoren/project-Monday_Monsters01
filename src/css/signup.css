@@ -228,7 +228,7 @@
     background: var(--brown);
 }
 .animated-img {
-    width: 805;
+    width: 80%;
     position: absolute;
     top: 112px;
     left: 20px;
@@ -262,11 +262,5 @@
     max-width: 240px;
     height: 296px;
     flex-shrink: 0;
-    transition: transform 5s ease;
-}
-
-.static-img:hover {
-    transform-origin: top;
-    transform: rotate(30deg);
 }
 }
