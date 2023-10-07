@@ -54,16 +54,16 @@
     flex-direction: column;   
 }
 
-@media only screen and (min-width: 768px) {
-    .footer-link {
-    
-    }
-}
-
 .footer-link {
     fill: var(--text-white);
 font-size: 14px;
 line-height: 1.28;
+}
+
+.footer-adress .footer-link:hover ,
+.footer-adress .footer-link:focus {
+    color: var(--brown);
+    font-weight: 700;
 }
 
 .footer-social {
@@ -99,9 +99,13 @@ line-height: 1.28;
 }
 
 .footer-list-web {
-    color: var(--text-white);
-font-size: 14px;
-line-height: normal;
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-list-web {
+        width: 77px;
+        height: 94px;
+    }
 }
 
 .footer-web {
@@ -115,19 +119,25 @@ line-height: normal;
 } 
 
 .footer-link-web {
-    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: normal;
 }
 
 .footer-web .footer-link-web:hover ,
 .footer-web .footer-link-web:focus {
     color: var(--brown);
+    font-weight: 700;
 }
 
 
 .footer-list-about {
-    color: var(--text-white);
-font-size: 14px;
-line-height: normal;
+}
+
+@media only screen and (min-width: 1280px) {
+    .footer-list-about {
+        width: 97px;
+    }
 }
 
 .footer-about-us {
@@ -141,13 +151,22 @@ line-height: normal;
 }
 
 .footer-link-about {
-    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--text-white);
+    font-size: 14px;
+    line-height: normal;
 }
 
 .footer-about-us .footer-link-about:hover ,
 .footer-about-us .footer-link-about:focus {
     color: var(--brown);
+    
 }
+
+.footer-about-us:hover ,
+.footer-about-us:focus {
+    font-weight: 700;
+}
+
 
 
 .footer-subscribe {
@@ -177,6 +196,15 @@ border: none;
 padding-left: 18px;
 width: 267px;
 }
+
+.footer-subscribe-input:hover ,
+.footer-subscribe-input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: var(--main-bg);
+    stroke-width: 1px;
+    color: var(--text-white)
+}
+
 
 @media only screen and (min-width: 768px) {
     .footer-subscribe-input {
