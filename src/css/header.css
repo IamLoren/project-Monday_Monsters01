@@ -75,6 +75,10 @@
   background-color: transparent;
   border: none;
 }
+.header-icon-burger:hover,
+.header-icon-burger:hover {
+  stroke: var(--brown-transp);
+}
 
 .header-navigation-list {
   display: none;
