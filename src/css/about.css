@@ -31,7 +31,7 @@ margin-bottom: 40px;
 @media only screen and (min-width: 768px) {
    .about-title {
     font-size: 48px;
-    line-height: 1.12px;
+    line-height: 1.12;
     margin-bottom: 50px;
   }
 }
@@ -96,14 +96,19 @@ margin-bottom: 40px;
 }
   
 .about-text {
-  width: 335px;
+  width: 100%;
   color: var(--text-white);
   font-family: DM Sans;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
 }
-  
+
+@media only screen and (min-width: 375px) {
+   .about-text {
+    width: 335px;
+  }
+}
 @media only screen and (min-width: 768px) {
    .about-text {
     width: 280px;
