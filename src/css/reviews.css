@@ -12,14 +12,15 @@
   margin-bottom: 40px;
   text-align: left;
 }
+
+/*
 .reviews-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-
-/*.reviews-item:not(:first-child) {
+.reviews-item:not(:first-child) {
   display: none;
 } /*/
 .reviews-item {
