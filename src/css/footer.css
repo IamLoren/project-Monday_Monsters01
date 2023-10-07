@@ -202,6 +202,8 @@ height: 60px;
 border: none;
 padding-left: 18px;
 width: 100%;
+transition-duration: var(--trans-time);
+transition-timing-function: var(--trans-func);
 }
 
 .footer-subscribe-input:hover ,
@@ -210,6 +212,7 @@ width: 100%;
     background-color: var(--main-bg);
     stroke-width: 1px;
     color: var(--text-white)
+
 }
 
 @media only screen and (min-width: 375px) {
