@@ -132,13 +132,9 @@ line-height: 1.28;
 
 
 .footer-list-about {
+    width: 97px;
 }
 
-@media only screen and (min-width: 1280px) {
-    .footer-list-about {
-        width: 97px;
-    }
-}
 
 .footer-about-us {
     margin-bottom: 14px;
