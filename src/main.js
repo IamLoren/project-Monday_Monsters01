@@ -34,20 +34,16 @@
 })();
 
 /* Slider Swiper */
-console.log('.reviews-list', Swiper);
-new Swiper('.reviews-list', {
+new Swiper('.reviews-swiper', {
   simulateTouch: true,
   touchRatio: 1,
   grabCursor: true,
-  // управління клавішами
   keyboard: {
     enable: true,
     onlyInViewport: true,
     pageUpDown: true,
   },
   loop: true,
-
-  //Відступ між слайдами
 
   breakpoints: {
     320: {
@@ -59,4 +55,3 @@ new Swiper('.reviews-list', {
     },
   },
 });
-console.log(Swiper);
