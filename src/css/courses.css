@@ -115,7 +115,8 @@
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
     padding: 28px;
     cursor: pointer;
-    transition: all var(--trans-time) var(--trans-func);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
     
 }
 /* ANIMATION */
@@ -200,7 +201,8 @@
     border-radius: 50%;
     background-color: var(--accent-bg);
     padding: 6px;
-    transition: background-color var(--trans-time) var(--trans-func);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .courses-link:hover,
@@ -211,7 +213,8 @@
 .courses-arrow {
     fill: transparent;
     stroke: #777777;
-    transition: stroke var(--trans-time) var(--trans-func);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .courses-arrow:hover,
