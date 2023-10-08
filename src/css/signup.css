@@ -282,11 +282,7 @@
 
 
 @media only screen and (min-width: 1440px) {
-    .signup-additional {
-        display: flex;
-        width: 100%;
-        position: relative;
-    }
+
 .signup-additional-animated {
     width: 190px;
     right: 371px;
