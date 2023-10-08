@@ -156,6 +156,13 @@
         display: flex;
         align-items: center;
         gap: 5px;
+        transition: transform;
+        transition-duration: var(--trans-time);
+    }
+
+    .hero-reviews-link:hover {
+        transform: scale(1.05);
+        text-shadow: 1px 1px 1px white;
     }
 
     @media only screen and (min-width: 768px) {
