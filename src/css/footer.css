@@ -36,6 +36,7 @@
 .footer-logo-link {
     fill: var(--text-white);
 }
+
 .footer-icon {
     margin-bottom: 20px;  
 }
@@ -45,6 +46,7 @@
         margin-bottom: 25px;  
     }
 }
+
 .footer-adress {
     width: 142px;
     height: 46px;
@@ -105,9 +107,6 @@ line-height: 1.28;
         gap: 100px;
         width: 274px;
     }
-}
-
-.footer-list-web {
 }
 
 @media only screen and (min-width: 1280px) {
@@ -264,17 +263,12 @@ gap: 8px;
 display: flex;
 justify-content: space-between;
 }
-.footer-privacy-frame {
-      
-}
 
 .footer-container-link{
     display: flex;
     flex-direction: column;
 }
 
-.footer-link-privacy {
-}
 
 .footer-text-frame {
     color: var(--text-white);
