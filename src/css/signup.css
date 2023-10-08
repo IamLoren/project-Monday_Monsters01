@@ -3,7 +3,7 @@
     background-color: var(--main-bg);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup {
         padding: 50px 0;
     }
@@ -18,7 +18,7 @@
     height: 523px;
     flex-shrink: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-main {
         max-width: 480px;
         height: auto;
@@ -38,7 +38,7 @@
 
     margin-bottom: 20px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-title {
         font-size: 48px;
         line-height: 1.13;
@@ -59,7 +59,7 @@
 
     margin-bottom: 40px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-text {
         min-width: 480px;
         height: 40px;
@@ -87,7 +87,7 @@
     width: 100%;
     margin-bottom: 8px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-row {
         margin-bottom: 14px;
     }
@@ -108,7 +108,7 @@
     font-weight: 400;
     line-height: 1.29;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-input {
         max-width: 480px;
         height: 60px;
@@ -149,7 +149,7 @@
     background-color: transparent;
     resize: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-comment-field {
         max-width: 480px;
         height: 120px;
@@ -186,7 +186,7 @@
     line-height: 1.25;
     text-transform: uppercase;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-button {
         margin-bottom: 20px;
         padding: 16px 216px;
@@ -213,7 +213,7 @@
     font-size: 12px;
     line-height: 1.33;
 }
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .signup-privacy-text {
         height: 36px;
     
