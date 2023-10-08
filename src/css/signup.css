@@ -194,7 +194,8 @@
 .signup-button:focus {
     background-color: var(--accent-bg);
     color: var(--brown);
-    transition: var(--trans-time);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .signup-privacy-text {
