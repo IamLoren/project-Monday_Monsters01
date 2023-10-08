@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: var(--main-bg);
   flex-grow: 1;
   height: 50px;
@@ -53,7 +53,7 @@
 
 .header-icon-camera {
   fill: var(--brown-transp);
-  transition: fill var(--trans-time);
+  transition: var(--trans-time) var(--trans-func);
 }
 
 .header-icon-camera:active,
@@ -127,7 +127,7 @@
     line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
-    transition: background-color var(--trans-time);
+    transition: background-color var(--trans-time) var(--trans-func);
   }
 
   .header-sign:hover,
@@ -174,7 +174,8 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    transition: color var(--trans-time);
+    transition: transform;
+    transition: color var(--trans-time) var(--trans-func);
   }
 
   .header-navigation-link:hover {
@@ -192,7 +193,6 @@
     width: 0px;
     height: 2px;
     border-radius: 2px;
-    transition: var(--trans-time);
   }
 
   .header-navigation-link:hover:after {
