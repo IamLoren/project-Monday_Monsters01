@@ -1,9 +1,3 @@
-/* DELETE */
-:root {
-    --trans-time: 0.3s;
-    --trans-func: linear;
-}
-
 .courses {
     padding-top: 57px;
     padding-bottom: 40px;
@@ -212,7 +206,7 @@
     border-radius: 50%;
     background-color: var(--accent-bg);
     padding: 6px;
-    transition: background-color var(--anim-fast);
+    transition: background-color var(--trans-time) var(--trans-func);
 }
 
 .courses-link:hover,
@@ -223,7 +217,7 @@
 .courses-arrow {
     fill: transparent;
     stroke: #777777;
-    transition: stroke var(--anim-fast);
+    transition: stroke var(--trans-time) var(--trans-func);
 }
 
 .courses-arrow:hover,
