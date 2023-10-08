@@ -1,3 +1,8 @@
+import Swiper from 'swiper';
+import 'swiper/css';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css/pagination';
+
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
@@ -54,4 +59,5 @@ new Swiper('.reviews-swiper', {
       spaceBetween: 20,
     },
   },
+  modules: [Pagination],
 });
