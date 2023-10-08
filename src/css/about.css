@@ -5,31 +5,31 @@
 }
 
 @media only screen and (min-width: 768px) {
-   .about-section {
+  .about-section {
     padding-top: 100px;
     padding-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-   .about-section {
+  .about-section {
     padding-top: 150px;
     padding-bottom: 75px;
   }
 }
 
 .about-title {
-color: var(--text-white);
-font-family: DM Sans;
-font-size: 28px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: -0.04em;
-margin-bottom: 40px;
+  color: var(--text-white);
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-   .about-title {
+  .about-title {
     font-size: 48px;
     line-height: 1.12;
     margin-bottom: 50px;
@@ -49,7 +49,7 @@ margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 1440px) {
-   .about-pic-list {
+  .about-pic-list {
     gap: 50px;
   }
 }
@@ -59,13 +59,13 @@ margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-   .about-img {
+  .about-img {
     margin-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-   .about-img {
+  .about-img {
     margin-bottom: 0;
   }
 }
@@ -77,24 +77,24 @@ margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-   .about-list {
+  .about-list {
     flex-direction: row;
     gap: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-   .about-list {
+  .about-list {
     gap: 20px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-   .about-list {
+  .about-list {
     gap: 40px;
   }
 }
-  
+
 .about-text {
   width: 100%;
   color: var(--text-white);
@@ -105,12 +105,12 @@ margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 375px) {
-   .about-text {
+  .about-text {
     width: 335px;
   }
 }
 @media only screen and (min-width: 768px) {
-   .about-text {
+  .about-text {
     width: 280px;
     font-size: 16px;
     line-height: 1.25;
@@ -124,18 +124,18 @@ margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 1440px) {
-   .text-one {
+  .text-one {
     width: 330px;
   }
 }
- @media only screen and (min-width: 1280px) {
-    .text-two {
+@media only screen and (min-width: 1280px) {
+  .text-two {
     width: 264px;
-   }
- }
+  }
+}
 
- @media only screen and (min-width: 1440px) {
-    .text-two {
+@media only screen and (min-width: 1440px) {
+  .text-two {
     width: 276px;
-   }
- }
+  }
+}
