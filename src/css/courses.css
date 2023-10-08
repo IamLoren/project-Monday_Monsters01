@@ -31,7 +31,6 @@
 @media only screen and (min-width: 768px) {
    .courses-title-box{
     max-width: 704px;
-    /* gap: 58px; */
     justify-content: space-between;
 
     margin-bottom: 50px;
@@ -113,16 +112,11 @@
 
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    background: var(--gradient-bg);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
     padding: 28px;
     cursor: pointer;
-    /* animation-name: scale-up-center;
-     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;  */
     transition: all var(--trans-time) var(--trans-func);
     
-
 }
 /* ANIMATION */
     .courses-item:hover.scale-up-center,
