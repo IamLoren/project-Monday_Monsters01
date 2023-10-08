@@ -55,4 +55,3 @@ new Swiper('.reviews-swiper', {
     },
   },
 });
-console.log(Swiper);
