@@ -27,7 +27,6 @@
     padding: 232px 64px 64px;
     background-image: url(../img/menu_tab_mobile/menu_camera_tab.jpg);
   }
-  
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -68,6 +67,6 @@
 
 @media screen and (min-width: 768px) {
   .menu-nav-link:not(:last-child) {
-   padding: 12px 12px 12px 0;
+    padding: 12px 12px 12px 0;
   }
 }
