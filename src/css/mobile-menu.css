@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   background-color: var(--brown);
-  background-image: url(../img/menu_tab_mobile/menu_camera_mob.jpg);
+  background-image: url(../img/menu_tab_mobile/menu_camera_mob.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
@@ -17,7 +17,7 @@
 
 @media only screen and (min-resolution: 192dpi) {
   .menu-container {
-    background-image: url(../img/menu_tab_mobile/menu_camera_mob@2x.jpg);
+    background-image: url(../img/menu_tab_mobile/menu_camera_mob@2x.webp);
   }
 }
 
@@ -25,13 +25,13 @@
   .menu-container {
     width: 480px;
     padding: 232px 64px 64px;
-    background-image: url(../img/menu_tab_mobile/menu_camera_tab.jpg);
+    background-image: url(../img/menu_tab_mobile/menu_camera_tab.webp);
   }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .menu-container {
-    background-image: url(../img/menu_tab_mobile/menu_camera_tab@2x.jpg);
+    background-image: url(../img/menu_tab_mobile/menu_camera_tab@2x.webp);
   }
 }
 
