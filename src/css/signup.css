@@ -44,11 +44,16 @@
         line-height: 1.13;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .signup-title {
+        min-width: 159px;
+    }
+}
 .signup-title-accent {
     color: var(--brown);
 }
 .signup-text {
-    max-width: 295px;
+    min-width: 295px;
     height: 54px;
 
     color: var(--text-white);
@@ -60,7 +65,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
     .signup-text {
-        max-width: 480px;
+        min-width: 480px;
         height: 40px;
     
         font-size: 16px;
@@ -69,15 +74,21 @@
 }
 @media only screen and (min-width: 1440px) {
     .signup-text {
-        max-width: 480px;
+        min-width: 480px;
         height: 40px;
     
         font-size: 16px;
         line-height: 1.25;
     }
 }
-
+.form-wrapper {
+    width: 100%;
+}
+.signup-form {
+    width: 100%;
+}
 .signup-row {
+    width: 100%;
     margin-bottom: 8px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
