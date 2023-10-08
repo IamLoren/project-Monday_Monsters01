@@ -162,14 +162,13 @@
         .mentors-name {
             font-size: 28px;
             line-height: 1.14;
-            /* width: 194px; */
+            
         }
         .mentors-title-color {
             letter-spacing: normal;
             font-size: 48px;
             font-weight: 500;
-            
-                    
+                           
         }
         .mentors-list-team {
             padding-top: 50px;
