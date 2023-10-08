@@ -44,11 +44,7 @@
         line-height: 1.13;
     }
 }
-@media only screen and (min-width: 1440px) {
-    .signup-title {
-        min-width: 159px;
-    }
-}
+
 .signup-title-accent {
     color: var(--brown);
 }
