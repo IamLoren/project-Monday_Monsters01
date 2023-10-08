@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 12px;
-  border: 1px solid var(--text-white, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: var(--main-bg);
   flex-grow: 1;
   height: 50px;
@@ -53,10 +53,10 @@
 
 .header-icon-camera {
   fill: var(--brown-transp);
-  transition: fill var(--trans-time);
+  transition: var(--trans-time) var(--trans-func);
 }
 
-.header-icon-camera:hover,
+.header-icon-camera:active,
 .header-icon-camera:focus {
   fill: var(--brown);
 }
@@ -74,6 +74,10 @@
   stroke: var(--text-white);
   background-color: transparent;
   border: none;
+}
+
+.header-icon-burger:focus {
+  stroke: var(--brown-transp);
 }
 
 .header-navigation-list {
@@ -101,7 +105,6 @@
 
   .header-block {
     max-width: 504px;
-    width: 100%;
     height: 60px;
   }
 
@@ -124,7 +127,7 @@
     line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
-    transition: background-color var(--trans-time);
+    transition: background-color var(--trans-time) var(--trans-func);
   }
 
   .header-sign:hover,
@@ -143,6 +146,7 @@
     margin: 0 auto;
     gap: 20px;
   }
+
   .header-block {
     max-width: 822px;
     width: 100%;
@@ -170,43 +174,35 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    transition: color var(--trans-time);
+    transition: transform;
+    transition: color var(--trans-time) var(--trans-func);
   }
 
-  .header-navigation-link:hover,
-  .header-navigation-link:focus {
+  .header-navigation-link:hover {
     color: var(--brown);
   }
-  .header-navigation-link:active::before {
+
+  .header-navigation-link::after {
     content: ' ';
     left: 0;
     background-color: var(--brown);
     color: var(--brown);
     position: absolute;
-    bottom: -2px;
+    bottom: 5px;
     display: block;
-    width: 100%;
-    height: 0;
+    width: 0px;
+    height: 2px;
     border-radius: 2px;
-    transition: 1000mc ease;
   }
 
-  .header-navigation-link:active::after {
-    content: ' ';
-    left: 0;
-    background-color: var(--brown);
-    color: var(--brown);
-    position: absolute;
-    bottom: -2px;
-    display: block;
+  .header-navigation-link:hover:after {
     width: 100%;
-    height: 4px;
-    border-radius: 2px;
   }
 
   .header-menu-toggle {
     display: none;
   }
+
   .header-sign {
     width: 238px;
   }
@@ -216,6 +212,7 @@
   .header-block {
     max-width: 982px;
   }
+
   .header-logo {
     margin-right: 209px;
   }
@@ -223,6 +220,7 @@
   .header-navigation-list {
     gap: 40px;
   }
+
   .header-sign {
     width: 238px;
   }

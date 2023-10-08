@@ -31,7 +31,6 @@
 @media only screen and (min-width: 768px) {
    .courses-title-box{
     max-width: 704px;
-    /* gap: 58px; */
     justify-content: space-between;
 
     margin-bottom: 50px;
@@ -115,8 +114,41 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
     padding: 28px;
-
+    cursor: pointer;
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
+    
 }
+/* ANIMATION */
+    .courses-item:hover.scale-up-center,
+    .courses-item:focus.scale-up-center {
+                    -webkit-animation: scale-up-center 0.4s linear both;
+                    animation: scale-up-center 0.4s linear both;
+                    -webkit-animation: scale-up-center 0.4s linear both;
+                    animation: scale-up-center 0.4s linear both;
+                }
+
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    
+    }
+
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+
+        -webkit-box-shadow: -12px 0 20px -12px rgba(190, 166, 158, 0.35), 12px 0 20px -12px rgba(190, 166, 158, 0.35);
+        box-shadow: -12px 0 20px -12px rgba(190, 166, 158, 0.35), 12px 0 20px -12px rgba(190, 166, 158, 0.35);
+    }
+}
+
+/* ANIMATION */
 
 @media only screen and (min-width: 375px) {
    .courses-item{
@@ -169,7 +201,8 @@
     border-radius: 50%;
     background-color: var(--accent-bg);
     padding: 6px;
-    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .courses-link:hover,
@@ -180,8 +213,8 @@
 .courses-arrow {
     fill: transparent;
     stroke: #777777;
-
-    transition: stroke 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: var(--trans-time);
+    transition-timing-function: var(--trans-func);
 }
 
 .courses-arrow:hover,

@@ -3,6 +3,7 @@
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
   const overlay = document.querySelector('.overlay');
+  const links = document.querySelectorAll('.menu-nav-link');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -19,6 +20,9 @@
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+  links.forEach(link => {
+    link.addEventListener('click', toggleMenu);
+  });
 
   // Close the mobile menu on wider screens if the device orientation changes
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
@@ -30,20 +34,16 @@
 })();
 
 /* Slider Swiper */
-
-new Swiper('.reviews-list', {
+new Swiper('.reviews-swiper', {
   simulateTouch: true,
   touchRatio: 1,
   grabCursor: true,
-  // управління клавішами
   keyboard: {
     enable: true,
     onlyInViewport: true,
     pageUpDown: true,
   },
   loop: true,
-
-  //Відступ між слайдами
 
   breakpoints: {
     320: {
