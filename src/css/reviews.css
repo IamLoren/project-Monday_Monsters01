@@ -17,7 +17,7 @@
   max-width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 18px 19px;
+  padding: 19px 19px;
 }
 
 .reviews-box {
@@ -74,7 +74,7 @@
 @media only screen and (min-width: 768px) {
   .reviews {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 98px;
   }
   .reviews-wrapper {
     width: 100%;
@@ -82,6 +82,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  
   .reviews-item {
     width: 100%;
     height: 196px;
@@ -94,7 +95,7 @@
     letter-spacing: -0.04em;
     margin-bottom: 40px;
     text-align: left;
-    letter-spacing: -0.04em;
+    letter-spacing: normal;
   }
   .reviews-name {
     line-height: 1.4;

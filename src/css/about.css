@@ -32,7 +32,8 @@
   .about-title {
     font-size: 48px;
     line-height: 1.12;
-    margin-bottom: 50px;
+    margin-bottom: 51px;
+    letter-spacing: 0.02em;
   }
 }
 
