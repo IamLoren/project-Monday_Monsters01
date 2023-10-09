@@ -21,6 +21,8 @@
 @media only screen and (min-width: 768px) {
     .signup-main {
         max-width: 480px;
+    }
+}
 
 .signup-title {
     color: var(--text-white);
