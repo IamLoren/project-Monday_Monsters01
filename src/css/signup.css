@@ -1,5 +1,5 @@
 .signup {
-    padding: 40px 0;
+    padding: 41px 0 40px;
     background-color: var(--main-bg);
 }
 
@@ -34,9 +34,9 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.03em;
 
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 @media only screen and (min-width: 768px) {
     .signup-title {
@@ -48,15 +48,13 @@
 .signup-title-accent {
     color: var(--brown);
 }
-.signup-text {
-    min-width: 295px;
-    height: 54px;
 
+.signup-text {
+    width: 295px;
+    height: 54px;
     color: var(--text-white);
     font-size: 14px;
     line-height: 1.29;
-    letter-spacing: -0.02em;
-
     margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
@@ -129,7 +127,7 @@
     color: var(--text-white);
 }
 .signup-comment {
-    margin-bottom: 40px;
+    margin-bottom: 41px;
 }
 .signup-comment-field {
     display: block;
@@ -212,6 +210,7 @@
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     line-height: 1.33;
+    letter-spacing: -0.01em;
 }
 @media only screen and (min-width: 768px) {
     .signup-privacy-text {
