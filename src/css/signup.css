@@ -21,14 +21,13 @@
 @media only screen and (min-width: 768px) {
     .signup-main {
         max-width: 480px;
-        height: auto;
     }
 }
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
     .signup-main {
         height: 578px;
     }
-}
+} */
 .signup-title {
     color: var(--text-white);
     font-size: 28px;
