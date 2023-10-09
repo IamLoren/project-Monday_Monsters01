@@ -270,7 +270,7 @@ flex-shrink: 0;
 transition-duration: var(--trans-time);
 transition-timing-function: var(--trans-func);
 }
-/*  */
+
 .footer-button {
     display: flex;
 align-items: center;
@@ -305,14 +305,6 @@ cursor: pointer;
 .footer-button-inner:hover .footer-button{
     color: var(--brown);
 }
-/*  */
-
-/* .footer-button:hover,
-.footer-button:focus {
-      color: var(--brown);     
-} */
-
-
 
 .footer-container-privacy {
     color: var(--text-white);
@@ -328,6 +320,7 @@ justify-content: space-between;
         gap: 72px;
     }
 }
+
 
 .footer-container-link{
     display: flex;
