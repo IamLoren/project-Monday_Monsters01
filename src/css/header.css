@@ -26,7 +26,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 14px;
 }
 
 .header-logo {
@@ -154,12 +153,12 @@
 
   .header-block {
     max-width: 822px;
-    width: 100%;
+    /* width: 100%; */
     padding: 0 50px;
   }
 
   .header-logo {
-    margin-right: 85px;
+    margin-right: 97px;
   }
 
   .header-navigation-list {
@@ -167,7 +166,10 @@
     list-style-type: none;
     display: flex;
     width: 498px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 28px;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .header-navigation-link {
@@ -225,7 +227,7 @@
 
   .header-navigation-list {
     width: 550px;
-    
+    gap: 40px;
   }
 
   .header-sign {
