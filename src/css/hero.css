@@ -54,6 +54,7 @@
     width: 510px;
     font-size: 60px;
     line-height: 1.066;
+    
   }
 }
 
@@ -106,7 +107,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero-reviews {
-    gap: 60px;
+    gap: 50px;
     margin-bottom: 37px;
   }
 
@@ -168,7 +169,7 @@
   .hero-reviews-link {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 8px;
   }
 
   .hero-img-round {
@@ -180,6 +181,13 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-happy-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .hero-svg-circle {
@@ -221,7 +229,9 @@
 
 @media only screen and (min-width: 768px) {
   .hero-reviews-word {
-    margin-bottom: 12px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01em;
   }
 }
 

@@ -18,35 +18,3 @@
 @import url('./footer.css');
 @import url('./overlay.css');
 @import url('./mobile-menu.css');
-
-/* PAGE-SCROLL-BUTTON */
-
-.scroll-page {
-  display: flex;
-  width: 2rem;
-  height: 2rem;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  fill: var(--text-white-trans);
-  background-color: var(--accent-bg);
-  box-shadow: 0 0.25rem 0.5rem 0 var(--brown-transp);
-
-  position: fixed;
-  right: 5vw;
-  bottom: 5vw;
-}
-
-.scroll-page:hover {
-  background-color: var(--brown-transp);
-  opacity: 0.3;
-}
-
-.scroll-page:focus {
-  background-color: var(--brown-transp);
-  opacity: 0.7;
-}

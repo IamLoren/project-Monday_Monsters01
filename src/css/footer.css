@@ -284,8 +284,15 @@ transition-timing-function: var(--trans-func);
     color: var(--text-white);
 font-size: 12px;
 line-height: 1.33;
-gap: 72px;
 display: flex;
+justify-content: space-between;
+}
+
+@media only screen and (min-width: 375px) {
+    .footer-container-privacy {
+        justify-content: flex-start;
+        gap: 72px;
+    }
 }
 
 .footer-container-link{
