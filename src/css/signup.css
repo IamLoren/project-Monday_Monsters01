@@ -15,7 +15,7 @@
 }
 .signup-main {
     max-width: 335px;
-    height: 523px;
+    /* height: 523px; */
     flex-shrink: 0;
 }
 @media only screen and (min-width: 768px) {
