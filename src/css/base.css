@@ -11,6 +11,7 @@ html {
 
 :root {
   --text-white: #ffffff;
+  --text-white-trans: rgba(255, 255, 255, 0.2);
   --brown: #bea69e;
   --main-bg: #121212;
   --accent-bg: #1d1d1d;
