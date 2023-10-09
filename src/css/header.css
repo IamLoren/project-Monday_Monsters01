@@ -154,14 +154,14 @@
   }
 
   .header-logo {
-    margin-right: 97px;
+    margin-right: 85px;
   }
 
   .header-navigation-list {
     display: block;
     list-style-type: none;
     display: flex;
-    gap: 28px;
+    width: 498px;
     justify-content: space-between;
   }
 
