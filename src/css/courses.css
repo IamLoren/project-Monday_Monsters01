@@ -65,6 +65,7 @@
    .courses-title{
         font-size: 48px;
         line-height: 1.13;
+        letter-spacing: 0.01em;
   }
 }
 

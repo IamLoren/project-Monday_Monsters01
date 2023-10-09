@@ -15,20 +15,15 @@
 }
 .signup-main {
     max-width: 335px;
-    height: 523px;
     flex-shrink: 0;
 }
+
 @media only screen and (min-width: 768px) {
     .signup-main {
         max-width: 480px;
-        height: auto;
     }
 }
-@media only screen and (min-width: 1440px) {
-    .signup-main {
-        height: 578px;
-    }
-}
+
 .signup-title {
     color: var(--text-white);
     font-size: 28px;
@@ -42,6 +37,7 @@
     .signup-title {
         font-size: 48px;
         line-height: 1.13;
+        letter-spacing: normal;
     }
 }
 
@@ -215,10 +211,10 @@
 @media only screen and (min-width: 768px) {
     .signup-privacy-text {
         height: 36px;
-    
         font-size: 14px;
         line-height: 1.29;
         max-width: 480px;
+        letter-spacing: normal;
     }
 }
 .signup-agreement-link {
