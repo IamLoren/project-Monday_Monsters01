@@ -193,6 +193,7 @@
     width: 0px;
     height: 2px;
     border-radius: 2px;
+    transition: var(--trans-time);
   }
 
   .header-navigation-link:hover:after {
