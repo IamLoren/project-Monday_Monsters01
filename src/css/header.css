@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--text-white-trans);
   background-color: var(--main-bg);
   flex-grow: 1;
   height: 50px;

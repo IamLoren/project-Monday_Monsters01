@@ -18,3 +18,29 @@
 @import url('./footer.css');
 @import url('./overlay.css');
 @import url('./mobile-menu.css');
+
+/* PAGE-SCROLL-BUTTON */
+
+.scroll-btn {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+
+  flex-shrink: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: var(--text-white-trans);
+  border-color: var(--brown-transp);
+  background-color: var(--accent-bg);
+
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  bottom: vw;
+  outline: solid red;
+}
+.icon-croll-up {
+}
