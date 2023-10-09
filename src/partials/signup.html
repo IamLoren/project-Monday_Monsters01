@@ -5,7 +5,7 @@
             <p class="signup-text">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
             
             <div class="form-wrapper">
-            <form class="signup-form" name="feedback-form" novalidate>
+            <form class="signup-form" name="feedback-form">
             <div class="signup-row">
                 <input class="signup-input" type="text" name="user-name" id="user-name" placeholder="Enter your name" required pattern="\w{2,20}" />
             </div>
@@ -16,8 +16,8 @@
                 <textarea class="signup-comment-field" name="user-comment" id="user-comment" rows="5" placeholder="Message" required minlength="7"></textarea>
             </div>
             
-            <button class="signup-button" type="submit">SEND</button>
-            <p class="signup-privacy-text">By clicking on “Send” button, you agree to our <a class="signup-agreement-link" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>,<br> and allow Promodo to use this information for marketing
+            <button class="signup-button" type="submit" aria-label="send">SEND</button>
+            <p class="signup-privacy-text">By clicking on “Send” button, you agree to our <a class="signup-agreement-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy">Privacy Policy</a>,<br> and allow Promodo to use this information for marketing
         purposes.</p>
             </form>
             </div>

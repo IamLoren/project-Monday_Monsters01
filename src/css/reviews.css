@@ -118,6 +118,11 @@
     padding-top: 75px;
     padding-bottom: 150px;
   }
+
+  .reviews-title {
+    margin-bottom: 50px;
+  }
+
   .reviews-item:not(:first-child) {
     display: block;
   }
