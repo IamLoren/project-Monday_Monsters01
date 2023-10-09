@@ -21,26 +21,32 @@
 
 /* PAGE-SCROLL-BUTTON */
 
-.scroll-btn {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
+.scroll-page {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
   padding: 0;
   margin: 0;
-
+  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
   border-radius: 50%;
   cursor: pointer;
   fill: var(--text-white-trans);
-  border-color: var(--brown-transp);
   background-color: var(--accent-bg);
+  box-shadow: 0 0.25rem 0.5rem 0 var(--brown-transp);
 
   position: fixed;
-  right: 30px;
-  bottom: 30px;
-
-  bottom: vw;
-  outline: solid red;
+  right: 5vw;
+  bottom: 5vw;
 }
-.icon-croll-up {
+
+.scroll-page:hover {
+  background-color: var(--brown-transp);
+  opacity: 0.3;
+}
+
+.scroll-page:focus {
+  background-color: var(--brown-transp);
+  opacity: 0.7;
 }

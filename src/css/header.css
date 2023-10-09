@@ -19,7 +19,7 @@
   background-color: var(--main-bg);
   flex-grow: 1;
   height: 50px;
-  padding: 0 20px;
+  padding: 0 19px;
 }
 
 .header-navigation {
@@ -37,6 +37,11 @@
 
 .header-logo-icon {
   fill: var(--text-white);
+  transition: var(--trans-time) var(--trans-func);
+}
+
+.header-logo-icon:hover {
+  fill: var(--brown);
 }
 
 .header-camera {
