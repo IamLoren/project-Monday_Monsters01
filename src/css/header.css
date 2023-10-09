@@ -224,7 +224,7 @@
   }
 
   .header-navigation-list {
-    gap: 40px;
+    width: 550px;
   }
 
   .header-sign {
