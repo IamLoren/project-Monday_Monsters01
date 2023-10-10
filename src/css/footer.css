@@ -13,6 +13,12 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+    .footer {
+        padding-top: 59px;
+      }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-container-social {
     display: flex;
@@ -34,7 +40,7 @@
 
 @media only screen and (min-width: 1280px) {
   .footer-logo {
-    width: 180px;
+    width: 290px;
   }
 }
 
@@ -133,7 +139,7 @@
 
 @media only screen and (min-width: 1280px) {
   .footer-web {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 }
 
@@ -179,7 +185,7 @@
 
 @media only screen and (min-width: 1280px) {
   .footer-about-us {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 }
 
@@ -206,6 +212,13 @@
   gap: 8px;
   width: 100%;
 }
+
+@media only screen and (min-width: 1280px)  {
+    .footer-subscribe-form {
+        gap: 19px;
+    }
+}
+
 .footer-subscribe-label {
   flex-grow: 1;
 }
