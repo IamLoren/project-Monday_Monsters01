@@ -19,6 +19,12 @@
       }
 }
 
+@media only screen and (min-width: 1440px) {
+    .footer {
+        padding-top: 49px;
+      }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-container-social {
     display: flex;
@@ -216,6 +222,12 @@
 @media only screen and (min-width: 1280px)  {
     .footer-subscribe-form {
         gap: 19px;
+    }
+}
+
+@media only screen and (min-width: 1440px)  {
+    .footer-subscribe-form {
+        gap: 16px;
     }
 }
 
