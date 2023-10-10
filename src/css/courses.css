@@ -265,3 +265,9 @@
          width: 287px;
    }
  }
+
+ @media only screen and (min-width: 1280px) {
+    .courses-item-descr{
+         width: 330px;
+   }
+ }
