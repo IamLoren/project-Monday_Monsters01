@@ -3,6 +3,13 @@
   padding-bottom: 62px;
   background-color: var(--main-bg);
 }
+
+@media only screen and (min-width: 375px) {
+  .reviews {
+    padding-bottom: 79px;
+  }
+}
+
 .reviews-title {
   color: var(--text-white);
   font-size: 28px;
