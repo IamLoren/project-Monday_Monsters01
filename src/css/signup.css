@@ -46,7 +46,7 @@
 }
 
 .signup-text {
-  width: 295px;
+  max-width: 295px;
   height: 54px;
   color: var(--text-white);
   font-size: 14px;
