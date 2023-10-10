@@ -37,6 +37,12 @@
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .about-title {
+    margin-bottom: 50px;
+  }
+}
+
 .about-title-us {
   color: var(--brown);
 }
