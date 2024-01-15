@@ -257,17 +257,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
+    width: 100%;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-    .courses-item-descr{
-         width: 287px;
-   }
- }
-
- @media only screen and (min-width: 1280px) {
-    .courses-item-descr{
-         width: 330px;
-   }
- }
